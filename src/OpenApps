@@ -70,7 +70,7 @@ case "$1" in
 		nautilus
 		;;
 	--browser)
-		chromium
+    flatpak run org.chromium.Chromium 
 		;;
 	--editor)
 		geany
