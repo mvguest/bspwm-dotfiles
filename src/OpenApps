@@ -70,16 +70,16 @@ case "$1" in
 		nautilus
 		;;
 	--browser)
-    flatpak run org.chromium.Chromium 
+    flatpak run org.chromium.Chromium --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-features=TranslateUI,BackgroundMode --no-default-browser-check --disable-prompt-on-repost --disable-infobars --disable-notifications
 		;;
 	--editor)
-		geany
+		nvim
 		;;
 	--telegram)
 		telegram-desktop
 		;;
 	--whats)
-		firefox -new-tab https://web.whatsapp.com/
+		flatpak run com.rtosta.zapzap 
 		;;
 	--soundcontrol)
 		pavucontrol
