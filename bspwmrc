@@ -86,4 +86,3 @@ run lxpolkit
 
 # Initialize dunst and reload bspwm config 
 dunst &
-bspc wm -r 
