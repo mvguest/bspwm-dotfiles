@@ -95,6 +95,10 @@ super + alt + k
 
 # ----- Environment Apps ----- #
 
+# Zathura
+super + z 
+  zathura
+
 # Scratchpad
 super + alt + o
 	OpenApps --scratch
