@@ -51,6 +51,10 @@ super + r
 super + c
   bspc rule -a kitty -o state=floating center=true rectangle=800x500+0+0; kitty bc 
 
+# Weather visualizer
+super + shift + w
+  bspc rule -a kitty -o state=floating center=true rectangle 900x600+0+0; kitty --override font_size=8 sh -c 'curl wttr.in; echo; echo Pressione <ENTER> para sair...; read'
+
 # ----- Rofi Applets ----- #
 
 #Terminal Selector
