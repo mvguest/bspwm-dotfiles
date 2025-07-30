@@ -5,8 +5,8 @@
 # https://github.com/gh0stzk/dotfiles
 
 # (Onedark) colorscheme
-bg="#14171c"
-fg="#abb2bf"
+bg="#000000"
+fg="#ffffff"
 
 black="#181b21"
 red="#be5046"
@@ -29,26 +29,26 @@ accent_color="$black"
 arch_icon="#0f94d2"
 
 # Bspwm options
-BORDER_WIDTH="0"		# Bspwm border
+BORDER_WIDTH="0" # Bspwm border
 TOP_PADDING="1"
 BOTTOM_PADDING="40"
 LEFT_PADDING="1"
 RIGHT_PADDING="1"
-NORMAL_BC="#b8bfe5"		# Normal border color
-FOCUSED_BC="#7560d3"	# Focused border color
+NORMAL_BC="$bg"  # Normal border color
+FOCUSED_BC="$fg" # Focused border color
 
 # Terminal font & size
 term_font_size="10"
 term_font_name="JetBrainsMono Nerd Font"
 
 # Picom options
-P_FADE="true"			# Fade true|false
-P_SHADOWS="true"		# Shadows true|false
-SHADOW_C="#000000"		# Shadow color
-P_CORNER_R="6"			# Corner radius (0 = disabled)
-P_BLUR="false"			# Blur true|false
-P_ANIMATIONS="@"		# (@ = enable) (# = disable)
-P_TERM_OPACITY="1.0"	# Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
+P_FADE="true"        # Fade true|false
+P_SHADOWS="true"     # Shadows true|false
+SHADOW_C="#000000"   # Shadow color
+P_CORNER_R="6"       # Corner radius (0 = disabled)
+P_BLUR="false"       # Blur true|false
+P_ANIMATIONS="@"     # (@ = enable) (# = disable)
+P_TERM_OPACITY="1.0" # Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
 
 # Dunst
 dunst_offset='(0, 10)'
@@ -57,7 +57,7 @@ dunst_transparency='0'
 dunst_corner_radius='6'
 dunst_font='Inconsolata Semi Condensed Bold 9'
 dunst_border='0'
-dunst_frame_color="$magentab"
+dunst_frame_color="$bg"
 dunst_icon_theme="Zafiro-Purple"
 # Dunst animations
 dunst_close_preset="fly-out"
@@ -68,17 +68,17 @@ dunst_open_direction="up"
 # Jgmenu colors
 jg_bg="$bg"
 jg_fg="$fg"
-jg_sel_bg="$black"
-jg_sel_fg="$whiteb"
-jg_sep="$blackb"
+jg_sel_bg="$bg"
+jg_sel_fg="$fg"
+jg_sep="$bg"
 
 # Rofi menu font and colors
 rofi_font="Terminess Nerd Font Mono Bold 10"
 rofi_background="$bg"
-rofi_bg_alt="$black"
-rofi_background_alt="${bg}E0"
+rofi_bg_alt="$bg"
+rofi_background_alt="$bg"
 rofi_fg="$fg"
-rofi_selected="$magentab"
+rofi_selected="$fg"
 rofi_active="$green"
 rofi_urgent="$redb"
 
