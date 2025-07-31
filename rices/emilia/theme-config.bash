@@ -29,30 +29,30 @@ accent_color="#222330"
 arch_icon="#0f94d2"
 
 # Bspwm options
-BORDER_WIDTH="0"		# Bspwm border
+BORDER_WIDTH="0" # Bspwm border
 TOP_PADDING="50"
 BOTTOM_PADDING="1"
 LEFT_PADDING="1"
 RIGHT_PADDING="1"
-NORMAL_BC="#414868"		# Normal border color
-FOCUSED_BC="#bb9af7"	# Focused border color
+NORMAL_BC="#414868"  # Normal border color
+FOCUSED_BC="#bb9af7" # Focused border color
 
 # Terminal font & size
 term_font_size="10"
 term_font_name="JetBrainsMono Nerd Font"
 
 # Picom options
-P_FADE="true"			# Fade true|false
-P_SHADOWS="true"		# Shadows true|false
-SHADOW_C="#000000"		# Shadow color
-P_CORNER_R="6"			# Corner radius (0 = disabled)
-P_BLUR="false"			# Blur true|false
-P_ANIMATIONS="@"		# (@ = enable) (# = disable)
-P_TERM_OPACITY="1.0"	# Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
+P_FADE="true"        # Fade true|false
+P_SHADOWS="true"     # Shadows true|false
+SHADOW_C="#000000"   # Shadow color
+P_CORNER_R="6"       # Corner radius (0 = disabled)
+P_BLUR="false"       # Blur true|false
+P_ANIMATIONS="@"     # (@ = enable) (# = disable)
+P_TERM_OPACITY="1.0" # Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
 
 # Dunst
-dunst_offset='(20, 60)'
-dunst_origin='top-right'
+dunst_offset='(0, 60)'
+dunst_origin='top-center'
 dunst_transparency='0'
 dunst_corner_radius='6'
 dunst_font='JetBrainsMono NF Medium 9'
