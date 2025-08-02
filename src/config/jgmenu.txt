@@ -18,7 +18,7 @@ Brenda,echo brenda > ~/.config/bspwm/.rice ; ~/.config/bspwm/src/Theme.sh,colors
 Cristina,echo cristina > ~/.config/bspwm/.rice ; ~/.config/bspwm/src/Theme.sh,colors
 Cynthia,echo cynthia > ~/.config/bspwm/.rice ; ~/.config/bspwm/src/Theme.sh,colors
 Daniela,echo daniela > ~/.config/bspwm/.rice ; ~/.config/bspwm/src/Theme.sh,colors
-Emilia,echo emilia > ~/.config/bspwm/.rice ; ~/.config/bspwm/src/Theme.sh,colors
+ClearSky,echo "clear_sky" > ~/.config/bspwm/.rice ; ~/.config/bspwm/src/Theme.sh,colors
 h4ck3r,echo h4ck3r > ~/.config/bspwm/.rice ; ~/.config/bspwm/src/Theme.sh,colors
 Isabel,echo isabel > ~/.config/bspwm/.rice ; ~/.config/bspwm/src/Theme.sh,colors
 Jan,echo jan > ~/.config/bspwm/.rice ; ~/.config/bspwm/src/Theme.sh,colors

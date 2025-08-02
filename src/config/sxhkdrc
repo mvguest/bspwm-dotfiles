@@ -55,6 +55,9 @@ super + c
 super + shift + w
   bspc rule -a kitty -o state=floating center=true rectangle 900x600+0+0; kitty --override font_size=8 sh -c 'curl wttr.in; echo; echo Pressione <ENTER> para sair...; read'
 
+super + d
+  Discord
+
 # ----- Rofi Applets ----- #
 
 #Terminal Selector
